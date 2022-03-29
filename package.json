@@ -2,7 +2,7 @@
   "name": "OnSpot-backend",
   "version": "1.0.0",
   "description": "Ecommerece platform",
-  "main": "index.js",
+  "main": "index-server.js",
   "scripts": {
     "start": "node src/index-server.js"
   },
