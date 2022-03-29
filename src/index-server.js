@@ -117,6 +117,6 @@ app.put("/update", async (req, res) => {
 
 
 // Listen for requests
-app.listen(2000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log(`Server is running on port 2000`);
 });
